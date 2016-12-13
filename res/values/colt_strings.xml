@@ -26,9 +26,10 @@
 
   <!-- Quick Settings  -->
     <string name="quicksettings_title">Quick Settings</string>
-
+    
   <!-- Quick setting categories -->
     <string name="qs_tiles_category">Tiles</string>
+    <string name="qs_small_tiles_title">Small QS tiles</string>
 
   <!-- Battery Style -->
   <string name="battery_title">Battery Settings</string>
