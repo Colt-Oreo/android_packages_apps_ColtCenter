@@ -322,5 +322,8 @@
 
      <!-- Enabble HW keys -->
      <string name="enable_hw_keys_title">Enable hardware keys</string>
+     
+     <!-- Our App -->
+     <string name="app_name">Colt Interiors</string>
  
  </resources>
