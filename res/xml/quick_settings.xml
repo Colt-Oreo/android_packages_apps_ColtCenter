@@ -4,4 +4,10 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+   <com.colt.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_footer_warnings"
+        android:title="@string/qs_footer_warnings_title"
+        android:summary="@string/qs_footer_warnings_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
