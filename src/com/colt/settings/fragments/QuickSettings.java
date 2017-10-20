@@ -1,32 +1,26 @@
 package com.colt.settings.fragments;
 
-import com.android.internal.logging.nano.MetricsProto;
-
-import android.os.Bundle;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
-import android.os.UserHandle;
+import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
+import android.os.Bundle;
+import android.os.UserHandle;
 import android.preference.ListPreference;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
+import android.preference.Preference;
+import android.preference.PreferenceCategory;
+import android.preference.PreferenceScreen;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
+
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import java.util.Locale;
-import android.text.TextUtils;
-import android.view.View;
-
-
-import java.util.List;
-import java.util.ArrayList;
+import com.android.internal.logging.nano.MetricsProto;
+import com.android.settings.Utils;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+        Preference.OnPreferenceChangeListener {
+    private static final String TAG = "QuickSettings";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -34,13 +28,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.quick_settings);
 
-
-        }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-
-        return false;
+        ContentResolver resolver = getActivity().getContentResolver();
     }
 
     @Override
@@ -48,4 +36,20 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.COLT;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
+        final String key = preference.getKey();
+        return true;
+    }
+
 }
+
