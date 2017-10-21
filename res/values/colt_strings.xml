@@ -200,4 +200,9 @@
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 
+    <!-- Navbar tuner -->
+    <string name="navigation_category">Navigation</string>
+    <string name="navbar_title">Navbar</string>
+    <string name="navbar_tuner_title">Navbar buttons</string>
+
  </resources>
