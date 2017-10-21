@@ -205,4 +205,9 @@
     <string name="navbar_title">Navbar</string>
     <string name="navbar_tuner_title">Navbar buttons</string>
 
+    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
+
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Enable navigation bar</string>
+
  </resources>
