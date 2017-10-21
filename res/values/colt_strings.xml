@@ -197,4 +197,7 @@
     <string name="battery_bar_high_color">High level color"</string>
     <string name="battery_bar_low_color">Low level color"</string>
 
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+
  </resources>
