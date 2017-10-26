@@ -19,6 +19,18 @@
         android:summary="@string/qs_style_dark_summary"
         android:defaultValue="false" />
 
+    <PreferenceCategory
+        android:key="settings_category_ui"
+        android:title="@string/settings_category_ui_title">
+
+        <PreferenceScreen
+            android:key="theme_colors_settings"
+            android:title="@string/theme_colors_settings_title"
+            android:fragment="com.colt.settings.fragments.ThemeColorsSettings" />
+
+    </PreferenceCategory>
+
+
 <Preference
         android:fragment="com.colt.settings.fragments.ButtonSettings"
         android:key="Buttons"
