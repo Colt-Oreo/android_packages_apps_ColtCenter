@@ -273,4 +273,8 @@
     <string name="weather_settings_options_title">Location settings</string>
     <string name="weather_settings_summary">Choose location and other settings</string>
 
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
+
  </resources>
