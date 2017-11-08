@@ -277,4 +277,7 @@
     <string name="qs_music_tile_track_optional_title">Music tile track title</string>
     <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 
+    <string name="qs_style_dark_title">Dark SystemUI style</string>
+    <string name="qs_style_dark_summary">Reboot is required after changing</string>
+
  </resources>
