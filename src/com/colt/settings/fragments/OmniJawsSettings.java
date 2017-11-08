@@ -34,7 +34,7 @@ import android.provider.Settings;
 import android.util.Log;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.colt.Utils;
+import com.android.internal.util.colt.PackageUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -111,7 +111,7 @@ public class OmniJawsSettings extends SettingsPreferenceFragment implements
     }
 
     private boolean isOmniJawsServiceInstalled() {
-        return Utils.isAvailableApp(WEATHER_SERVICE_PACKAGE, getActivity());
+        return PackageUtils.isAvailableApp(WEATHER_SERVICE_PACKAGE, getActivity());
     }
 
     private void getAvailableWeatherIconPacks(List<String> entries, List<String> values) {
