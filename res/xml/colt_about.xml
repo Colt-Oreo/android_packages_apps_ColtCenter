@@ -15,6 +15,10 @@
                   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/about_colt">
 
+	<!-- ColtOS Header -->
+        <Preference android:key="cos_logo"
+            android:layout="@layout/colt_logo" />
+
         <!-- ColtOS Changelog -->
         <PreferenceScreen
             android:key="colt_changelog"
