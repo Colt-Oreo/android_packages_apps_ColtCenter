@@ -20,6 +20,11 @@
         android:defaultValue="false" />
 
 <Preference
+        android:fragment="com.colt.settings.fragments.ButtonSettings"
+        android:key="Buttons"
+        android:title="@string/buttons_category" />
+
+<Preference
         android:key="leds"
         android:fragment="com.colt.settings.fragments.LedSettings"
         android:title="@string/leds_title" />
