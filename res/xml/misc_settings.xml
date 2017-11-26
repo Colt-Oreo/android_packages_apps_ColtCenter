@@ -28,6 +28,11 @@
         android:summary="@string/weather_config_title"
         android:fragment="com.colt.settings.fragments.OmniJawsSettings" />
 
+<Preference
+        android:key="wakelock_blocker"
+        android:title="@string/wakelock_blocker_title"
+        android:fragment="com.colt.settings.fragments.WakeLockBlocker" />
+
 <!--<Preference
         android:key="powermenu"
         android:fragment="com.colt.settings.fragments.PowerMenu"
