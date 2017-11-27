@@ -319,5 +319,12 @@
      <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
      <!-- Enabble HW keys -->
      <string name="enable_hw_keys_title">Enable hardware keys</string>
+
+     <!-- recents icon pack -->
+     <string name="recents_icon_pack_title">Icon Pack</string>
+     <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string>
+     <string name="no_iconpacks_summary">No icon packs installed</string>
+     <string name="dialog_pick_iconpack_title">Pick icon pack</string>
+     <string name="default_iconpack_title">Default icons</string>
  
  </resources>
