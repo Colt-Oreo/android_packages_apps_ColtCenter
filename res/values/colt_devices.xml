@@ -46,7 +46,7 @@
     <string name="device_yu_lettuce_summary">lettuce\nMaintainer - Rohan</string>
 
     <string name="device_yu_un">Yu Yunique</string>
-    <string name="device_yu_un_summary">jalebi\nMaintainer - Vinesh Iyappan</string>
+    <string name="device_yu_un_summary">jalebi\nMaintainer - Vinesh Iyappan (theHari08)</string>
 
     <!-- GOOGLE -->
     <string name="device_google_mako">Nexus 4</string>
@@ -74,7 +74,7 @@
 
     <!-- MOTOROLA -->
     <string name="device_moto_athene">Moto G4 Plus</string>
-    <string name="device_moto_athene_summary">athene\nMaintainer -  Jashkirat Virdi </string>
+    <string name="device_moto_athene_summary">athene\nMaintainer -  Vinesh Iyappan (theHari08)</string>
 
     <!-- LG -->
     <string name="device_lg_g3">LG G3</string>
