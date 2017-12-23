@@ -47,7 +47,7 @@
     <!-- Changelog -->
     <string name="changelog_colt_title">Changelog</string>
     <string name="changelog_colt_error">Unable to load changelog</string>
-    <string name="changelog_colt_summary">Lets see what we have changed recently in ROM</string>
+    <string name="changelog_colt_summary">What we have changed recently</string>
 
     <!-- About Colt -->
     <string name="about_colt">About ColtOS</string>
@@ -60,7 +60,7 @@
 
     <!-- Sites ColtOS -->
     <string name="colt_source_title">Github</string>
-    <string name="colt_source_summary">Visit our source git team</string>
+    <string name="colt_source_summary">Visit our git source</string>
     <string name="colt_google_plus_title">Google+</string>
     <string name="colt_google_plus_summary">Visit our G+ page for support and news</string>
 
