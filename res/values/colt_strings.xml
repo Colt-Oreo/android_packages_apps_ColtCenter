@@ -132,4 +132,8 @@
     <string name="battery_bar_high_color">High level color"</string>
     <string name="battery_bar_low_color">Low level color"</string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
+
  </resources>
