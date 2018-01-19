@@ -19,4 +19,9 @@
         android:summary="@string/lockscreen_battery_info_summary" 
         android:defaultValue="false" />
 
+ <Preference
+        android:key="lockscreen_weather"
+        android:title="@string/lock_screen_weather_settings_title"
+        android:fragment="com.colt.settings.fragments.LockScreenWeatherSettings" />
+
 </PreferenceScreen>
