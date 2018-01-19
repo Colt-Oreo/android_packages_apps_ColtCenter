@@ -98,4 +98,8 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
  
+   <!-- Battery saver color -->
+   <string name="battery_saver_color_title">Warning color</string>
+   <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
+ 
  </resources>
