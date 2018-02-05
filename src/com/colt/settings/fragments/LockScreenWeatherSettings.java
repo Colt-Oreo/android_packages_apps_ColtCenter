@@ -36,6 +36,7 @@ import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+import com.android.internal.util.colt.ColtUtils;
 import com.android.settings.development.DevelopmentSettings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -94,7 +95,7 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
     }
 
     private boolean isOmniJawsServiceInstalled() {
-         return DevelopmentSettings.isPackageInstalled(getActivity(), WEATHER_SERVICE_PACKAGE);
+         return ColtUtils.isPackageInstalled(getActivity(), WEATHER_SERVICE_PACKAGE);
      }
 
     public void initweather() {
